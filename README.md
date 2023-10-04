@@ -33,3 +33,12 @@ cd rotate
 python rotate_.py
 ```
 <img src="./rotate/sunoray_rotate1.0471975511965976.jpg" width="60%"/>
+
+## calculate_transform_matrix
+
+**run**
+```
+cd calculate_transform_matrix
+python getaffinetransform.py
+```
+<img src="./calculate_transform_matrix/sunoray_getaffine1.0471975511965976.jpg" width="60%"/>
