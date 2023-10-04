@@ -1,5 +1,8 @@
 # Algorithm in Opencv
 
+## Reference
+[《OpenCV算法精解：基于Python与C++》(张平 编著)【简介_书评_在线阅读】 - 当当图书 (dangdang.com) http://product.dangdang.com/25182999.html](http://product.dangdang.com/25182999.html)
+
 ## shift
 
 **run**
@@ -21,3 +24,12 @@ python scale_.py
 按照某一点来缩放的
 
 <img src="./scale/sunoray_x0y00.5.jpg" width="39%"/>..............<img src="./scale/sunoray_x0y02.jpg" width="39%"/>
+
+## rotate
+
+**run**
+```
+cd rotate
+python rotate_.py
+```
+<img src="./rotate/sunoray_rotate1.0471975511965976.jpg" width="60%"/>
