@@ -9,6 +9,7 @@ import cv2
 import numpy as np
 
 def shift_image():
+    kk = cv2.__version__
     pth = os.path.join(filepath, r'sunoray.png')
     img = cv2.imread(pth)
     moveimg = np.zeros_like(img)
