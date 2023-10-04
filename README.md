@@ -42,3 +42,49 @@ cd calculate_transform_matrix
 python getaffinetransform.py
 ```
 <img src="./calculate_transform_matrix/sunoray_getaffine1.0471975511965976.jpg" width="60%"/>
+
+## Insertion
+
+**run**
+```
+cd insert
+python neighbor_insert.py 
+```
+
+neighbor_insert, compared with no insertion.
+
+<img src="./insert/sunoray_x0y0_up2_LINEAR.jpg" width="60%"/>
+
+<img src="./insert/sunoray_x0y0_up2_nearest.jpg" width="60%"/>
+
+no insertion.
+
+<img src="./scale/sunoray_scale2.jpg" width="60%"/>
+
+**run**
+```
+cd insert
+python rotate__.py 
+```
+
+rotate__ , compared with no insertion.
+
+<img src="./insert/sunoray_rotate1.0471975511965976.jpg" width="60%"/>
+
+no insertion.
+
+<img src="./rotate/sunoray_rotate1.0471975511965976.jpg" width="60%"/>
+
+**run**
+```
+cd insert
+python getaffinetransform__.py 
+```
+
+getaffinetransform__ , compared with no insertion.
+
+<img src="./insert/sunoray_getaffine1.0471975511965976.jpg" width="60%"/>
+
+no insertion.
+
+<img src="./calculate_transform_matrix/sunoray_getaffine1.0471975511965976.jpg" width="60%"/>
