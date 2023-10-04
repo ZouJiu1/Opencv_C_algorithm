@@ -5,6 +5,7 @@ nam = filepath.split(os.sep)[-1]
 filepath = filepath.replace(nam, "")
 sys.path.append(filepath)
 
+
 import cv2
 import numpy as np
 
