@@ -1,5 +1,13 @@
 # Algorithm in Opencv
 
+## the blogs
+
+[https://zhuanlan.zhihu.com/p/659524984 OpenCV算法精解：基于Python与C++，几何变换-仿射变换-插值](https://zhuanlan.zhihu.com/p/659524984)
+
+[https://www.zhihu.com/people/zoujiu1](https://www.zhihu.com/people/zoujiu1)
+
+[https://zoujiu.blog.csdn.net/](https://zoujiu.blog.csdn.net/)
+
 ## Reference
 [《OpenCV算法精解：基于Python与C++》(张平 编著)【简介_书评_在线阅读】 - 当当图书 (dangdang.com) http://product.dangdang.com/25182999.html](http://product.dangdang.com/25182999.html)
 
