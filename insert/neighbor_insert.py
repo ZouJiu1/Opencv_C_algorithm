@@ -25,7 +25,7 @@ def scale_up():
     m2 = np.array([[1, 0, x0], [0, 1, y0], [0, 0, 1]])
     
     A = np.matmul(np.matmul(m1, s), m2)  ##  m1 @ s @ m2
-    Ainv = np.linalg.inv(A)
+    Ainv = np.linalg.inv(A)   ## 求出逆矩阵的
     
     ## no inserting
     # for i in range(h):

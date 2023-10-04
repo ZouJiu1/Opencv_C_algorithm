@@ -61,7 +61,7 @@ def notchange():
 
     s = np.array([[ratio, 0, 0], [0, ratio, 0], [0, 0, 1]])
     A = np.matmul(np.matmul(np.matmul(m1, ang), s), m2)
-    Ainv = np.linalg.inv(A)
+    Ainv = np.linalg.inv(A)   ## 求出逆矩阵的
     
     # for i in range(h):
     #     for j in range(w):

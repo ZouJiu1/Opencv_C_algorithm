@@ -29,7 +29,7 @@ def rotate_image():
     m2 = np.array([[1, 0, -cw], [0, 1, -ch], [0, 0, 1]])
     
     Amatrix = np.matmul(np.matmul(m1, A), m2)
-    Ainv = np.linalg.inv(Amatrix)
+    Ainv = np.linalg.inv(Amatrix)   ## 求出逆矩阵的
 
     # for i in range(h):
     #     for j in range(w):
