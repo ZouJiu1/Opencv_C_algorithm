@@ -21,7 +21,9 @@ def rotate_image():
     angle = np.pi / 3
     rotateimg = np.zeros_like(img)
     rotateimg[...] = color
-    
+    '''
+顺时针还是逆时针，主要是极坐标的正方向是 顺时针，所以角度是正号，若是逆时针，此时就是极坐标的反方向，需要加上负号才可以
+    '''
     m1 = np.array([[1, 0, cw], [0, 1, ch], [0, 0, 1]])
     A  = np.array([[np.cos(angle), -np.sin(angle), 0], [np.sin(angle), np.cos(angle), 0], [0, 0, 1]]) # 顺时针
     A  = np.array([[np.cos(angle), np.sin(angle), 0], [-np.sin(angle), np.cos(angle), 0], [0, 0, 1]]) # 逆时针
